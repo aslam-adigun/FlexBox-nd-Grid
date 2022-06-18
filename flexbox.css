@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+main {
+  /* width:60%; */
+  /* margin:auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.master {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.left {
+  width: 20%;
+  background-color: hsl(31, 77%, 52%);
+  padding: 2.5em;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.center {
+  width: 20%;
+  background-color: hsl(184, 100%, 22%);
+  padding: 2.5em;
+}
+
+.right {
+  width: 20%;
+  background-color: hsl(179, 100%, 13%);
+  padding: 2.5em;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 60px;
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 25px;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+.leftbutton {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  color: hsl(31, 77%, 52%);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  border-width: 0;
+  transition-duration: 0.4s;
+}
+
+.leftbutton:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.centerbutton {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  color: hsl(184, 100%, 22%);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  border-width: 0;
+  transition-duration: 0.4s;
+}
+
+.centerbutton:hover {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.rightbutton {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  color: hsl(179, 100%, 13%);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  border-width: 0;
+  transition-duration: 0.4s;
+}
+
+.rightbutton:hover {
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
